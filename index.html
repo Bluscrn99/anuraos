@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
 	<head>
+<script>
+  // Dynamically set the <base> tag to the current domain
+  const base = document.createElement('base');
+  base.href = `${window.location.origin}/`;
+  document.head.appendChild(base);
+</script>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" href="/bundle.css" />
 		<link rel="stylesheet" href="/theme.css" />
