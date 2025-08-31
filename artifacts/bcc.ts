@@ -2,8 +2,6 @@ const bare = (window as any).BareMux;
 
 // const connection = new bare.BareMuxConnection("/libs/bare-mux/worker.js");
 
-// Jank fest attempted fix
-
 class AnuraBareClient {
 	ready = true;
 
