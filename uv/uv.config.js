@@ -4,7 +4,7 @@ self.__uv$config = {
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
-    bare: 'https://anura.pro',
+    // bare: 'https://anura.pro',
     client: '/uv/uv.client.js',
     bundle: '/uv/uv.bundle.js',
     config: '/uv/uv.config.js',
