@@ -36,7 +36,7 @@ class Settings {
 			}
 			url += window.location.origin.split("://")[1];
 			url += "/";
-			initial["wisp-url"] = "anura.pro/";
+			initial["wisp-url"] = "wss://anura.pro/";
 			// Default wisp url changed as I don't wanna host wisp man (it usually defaults to the url anura is hosted on)
 		}
 
